@@ -23,6 +23,8 @@ task dist(dependsOn: [compile, test]) {
 }
 
 task hello {
+    description = "The 'Hello, World' of gradle tasks"
+    group = 'build'
     doLast {
         println 'nachoes are delicious'
         println "in directory: $buildFile.parentFile.name"

@@ -1,1 +1,3 @@
 Just me playing with [Gradle](https://docs.gradle.org/). Nothing to see here...
+
+run `gradle tasks` to see what's available.
